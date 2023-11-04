@@ -11,12 +11,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - os: macos-latest
-            arch: x86_64
-            ext: x86_64-apple-darwin
-          - os: macos-latest
-            arch: arm64
-            ext: arm64-apple-darwin
           - os: ubuntu-latest
             arch: amd64
             platform: linux/amd64
