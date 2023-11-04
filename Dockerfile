@@ -4,7 +4,7 @@ WORKDIR /app
 
 # Add llvm deps.
 RUN apk add --update --no-cache --force-overwrite \
-      llvm15-dev llvm15-static g++ libxml2-static
+      llvm15-dev llvm15-static g++ libxml2-static libyaml-dev
 
 # Build crystalline.
 COPY . /app/
